@@ -52,7 +52,7 @@ export const validationErrorResponse = (res, errors) => {
   });
 };
 
-// Unauthorized response helper
+// Unauthorized response helper - noo need so far
 export const unauthorizedResponse = (res, message = "Unauthorized") => {
   return res.status(401).json({
     success: false,
