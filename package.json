@@ -1,7 +1,7 @@
 {
   "name": "workflow-backend",
   "version": "1.0.0",
-  "description": "A comprehensive workflow management backend API",
+  "description": "A comprehensive workflow management backend API with GraphQL",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -18,7 +18,9 @@
     "api",
     "nodejs",
     "express",
-    "mongodb"
+    "mongodb",
+    "graphql",
+    "apollo-server"
   ],
   "author": "Your Name",
   "license": "MIT",
@@ -28,7 +30,10 @@
     "cors": "^2.8.5",
     "morgan": "^1.10.0",
     "dotenv": "^16.3.1",
-    "joi": "^17.9.2"
+    "joi": "^17.9.2",
+    "@apollo/server": "^5.0.0",
+    "graphql": "^16.8.1",
+    "graphql-tag": "^2.12.6"
   },
   "devDependencies": {
     "nodemon": "^3.0.1",
